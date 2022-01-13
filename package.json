@@ -1,10 +1,10 @@
 {
   "name": "keypair.me",
   "version": "1.0.0",
-  "browserslist": "defaults",
+  "browserslist": "cover 99.5%",
   "scripts": {
     "start": "parcel --dist-dir docs src/index.html",
-    "build": "prettier --write . && rm -rf docs && parcel build --dist-dir docs src/index.html && printf keypair.me > docs/CNAME"
+    "build": "prettier --write . && rm -rf docs && parcel build --dist-dir docs --public-url . src/index.html && printf keypair.me > docs/CNAME"
   },
   "devDependencies": {
     "parcel": "^2.2.0",
