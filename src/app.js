@@ -18,6 +18,7 @@ function hex(array) {
 }
 
 (async function () {
+  console.log("Testing");
   const { privateKey, publicKey } = await generateEd25519KeyPair();
   document.getElementById("ed25519-public-key").innerText = hex(publicKey);
   document.getElementById("ed25519-private-key").innerText = hex(privateKey);
