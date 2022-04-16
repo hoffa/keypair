@@ -44,7 +44,7 @@ export class App extends React.Component {
       <div className="container">
         <h1 className="mt-5">Ed25519</h1>
         <div className="mb-3">
-          <label for="ed25519PublicKey" className="form-label">
+          <label htmlFor="ed25519PublicKey" className="form-label">
             Public key
           </label>
           <textarea
@@ -54,7 +54,7 @@ export class App extends React.Component {
           />
         </div>
         <div className="mb-3">
-          <label for="ed25519PrivateKey" className="form-label">
+          <label htmlFor="ed25519PrivateKey" className="form-label">
             Private key
           </label>
           <textarea
@@ -65,7 +65,7 @@ export class App extends React.Component {
         </div>
         <h1 className="mt-5">Secp256k1</h1>
         <div className="mb-3">
-          <label for="secp256k1PublicKey" className="form-label">
+          <label htmlFor="secp256k1PublicKey" className="form-label">
             Public key
           </label>
           <textarea
@@ -75,7 +75,7 @@ export class App extends React.Component {
           />
         </div>
         <div className="mb-3">
-          <label for="secp256k1PrivateKey" className="form-label">
+          <label htmlFor="secp256k1PrivateKey" className="form-label">
             Private key
           </label>
           <textarea
