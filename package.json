@@ -6,7 +6,7 @@
     "start": "parcel src/index.html",
     "check": "eslint src && prettier --check .",
     "format": "prettier --write .",
-    "build": "npm run check && rm -rf docs && parcel build --dist-dir docs --public-url . src/index.html && printf keypair.me > docs/CNAME"
+    "build": "npm run check && rm -rf docs && parcel build --dist-dir docs --public-url . src/index.html && printf keypair.irq.fi > docs/CNAME"
   },
   "devDependencies": {
     "eslint": "^8.6.0",
