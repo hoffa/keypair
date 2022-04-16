@@ -43,21 +43,25 @@ export class App extends React.Component {
     return (
       <div className="container">
         <div className="card mt-4">
-          <div className="card-header">
-            Ed25519
-          </div>
+          <div className="card-header">Ed25519</div>
           <ul className="list-group list-group-flush">
-            <li className="list-group-item"><code>{this.state.ed25519PublicKey}</code></li>
-            <li className="list-group-item"><code>{this.state.ed25519PrivateKey}</code></li>
+            <li className="list-group-item">
+              <code>{this.state.ed25519PublicKey}</code>
+            </li>
+            <li className="list-group-item">
+              <code>{this.state.ed25519PrivateKey}</code>
+            </li>
           </ul>
         </div>
         <div className="card mt-4">
-          <div className="card-header">
-            Secp256k1
-          </div>
+          <div className="card-header">Secp256k1</div>
           <ul className="list-group list-group-flush">
-            <li className="list-group-item"><code>{this.state.secp256k1PublicKey}</code></li>
-            <li className="list-group-item"><code>{this.state.secp256k1PrivateKey}</code></li>
+            <li className="list-group-item">
+              <code>{this.state.secp256k1PublicKey}</code>
+            </li>
+            <li className="list-group-item">
+              <code>{this.state.secp256k1PrivateKey}</code>
+            </li>
           </ul>
         </div>
       </div>
