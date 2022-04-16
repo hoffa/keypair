@@ -9,16 +9,16 @@
     "build": "npm run check && rm -rf docs && parcel build --dist-dir docs --public-url . src/index.html && printf keypair.irq.fi > docs/CNAME"
   },
   "devDependencies": {
-    "eslint": "^8.6.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "^7.28.0",
-    "parcel": "^2.2.0",
-    "prettier": "2.5.1"
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-react": "*",
+    "parcel": "*",
+    "prettier": "*"
   },
   "dependencies": {
-    "@noble/ed25519": "^1.4.0",
-    "@noble/secp256k1": "^1.4.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@noble/ed25519": "*",
+    "@noble/secp256k1": "*",
+    "react": "*",
+    "react-dom": "*"
   }
 }
