@@ -42,7 +42,7 @@ export class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>keypair.me</h1>
+        <h1>keypair.irq.fi</h1>
         <h2>Ed25519</h2>
         <h3>Public key</h3>
         <p>
