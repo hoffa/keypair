@@ -41,7 +41,7 @@ export class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <h1>keypair.irq.fi</h1>
         <h2>Ed25519</h2>
         <h3>Public key</h3>
