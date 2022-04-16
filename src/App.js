@@ -42,27 +42,47 @@ export class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="card mt-4">
-          <div className="card-header">Ed25519</div>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">
-              <code>{this.state.ed25519PublicKey}</code>
-            </li>
-            <li className="list-group-item">
-              <code>{this.state.ed25519PrivateKey}</code>
-            </li>
-          </ul>
+        <h1 className="mt-5">Ed25519</h1>
+        <div className="mb-3">
+          <label for="ed25519PublicKey" className="form-label">
+            Public key
+          </label>
+          <textarea
+            className="form-control font-monospace"
+            id="ed25519PublicKey"
+            value={this.state.ed25519PublicKey}
+          />
         </div>
-        <div className="card mt-4">
-          <div className="card-header">Secp256k1</div>
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">
-              <code>{this.state.secp256k1PublicKey}</code>
-            </li>
-            <li className="list-group-item">
-              <code>{this.state.secp256k1PrivateKey}</code>
-            </li>
-          </ul>
+        <div className="mb-3">
+          <label for="ed25519PrivateKey" className="form-label">
+            Private key
+          </label>
+          <textarea
+            className="form-control font-monospace"
+            id="ed25519PrivateKey"
+            value={this.state.ed25519PrivateKey}
+          />
+        </div>
+        <h1 className="mt-5">Secp256k1</h1>
+        <div className="mb-3">
+          <label for="secp256k1PublicKey" className="form-label">
+            Public key
+          </label>
+          <textarea
+            className="form-control font-monospace"
+            id="secp256k1PublicKey"
+            value={this.state.secp256k1PublicKey}
+          />
+        </div>
+        <div className="mb-3">
+          <label for="secp256k1PrivateKey" className="form-label">
+            Private key
+          </label>
+          <textarea
+            className="form-control font-monospace"
+            id="secp256k1PrivateKey"
+            value={this.state.secp256k1PrivateKey}
+          />
         </div>
       </div>
     );
