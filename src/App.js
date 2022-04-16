@@ -42,22 +42,21 @@ export class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1>keypair.irq.fi</h1>
-        <h2>Ed25519</h2>
-        <h3>Public key</h3>
+        <h1>Ed25519</h1>
+        <h2>Public key</h2>
         <p>
           <code>{this.state.ed25519PublicKey}</code>
         </p>
-        <h3>Private key</h3>
+        <h2>Private key</h2>
         <p>
           <code>{this.state.ed25519PrivateKey}</code>
         </p>
-        <h2>Secp256k1</h2>
-        <h3>Public key</h3>
+        <h1>Secp256k1</h1>
+        <h2>Public key</h2>
         <p>
           <code>{this.state.secp256k1PublicKey}</code>
         </p>
-        <h3>Private key</h3>
+        <h2>Private key</h2>
         <p>
           <code>{this.state.secp256k1PrivateKey}</code>
         </p>
